@@ -3,15 +3,15 @@ import './App.css';
 
 import logo from './assets/logo.svg';
 
-import Routes from './routes';
+import RoutesComponent from './routes';
 
 function App() {
 
   return (
-    <div className="container">
+    <div className="mx-auto mt-20 max-w-md w-full flex flex-col items-center">
       <img src={logo} alt="Aircnc Logo" />
-      <div className="content">
-        <Routes />
+      <div className="w-full bg-white mt-12 rounded-sm p-8">
+        <RoutesComponent />
       </div>
     </div>
   );
